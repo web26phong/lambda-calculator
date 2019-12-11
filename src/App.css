@@ -20,3 +20,54 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo-container{
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .calc_button {
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 50%;
+  }
+
+  .specials{
+      display: flex;
+      width: 80%;
+  }
+
+  .operators{
+    display: flex;
+    width: 80%;
+}
+
+.operator_button{
+    background-color: rgb(59, 157, 255);
+}
+
+.number_button{
+    background-color: rgb(6, 35, 63);
+}
+
+.special_button{
+    background-color: rgb(17, 80, 143);
+}
+
